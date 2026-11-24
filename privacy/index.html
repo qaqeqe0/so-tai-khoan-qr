@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAD10lEQVR4nMVXTWhcVRT+zn0vk/EP20I0GFPGQqKitMSVPxRrKRVUaqvWVnCXLNyoi651IbhQqPizbVe6kko3ihYxuFBESmkSQUprx9gUo5lgdaEmM+++I999705fXt8k86YDfnAzeTPn3PN95557z7sCAAfeuBKcfH2zHZts1ETwCoCnVFEDEAIQXB8UQCSCeQCfquL9C8eH5n1MyQR/XgQfCHAbPZR/+giRRIkCS6p4+cLxoY8Z26kbn2o8awQnYnWBLQDTB+V5UFIsgsAIECueO39s6BMZn2qMqmJOBLeqIgYQ0DowCetrZlHA0qoAXfpYERhV/CWC7aEqjhjBpjhRHrStOgRZD136BMxyGvMIi2wfM5+mvY39Dw2idnuwRhGVXF6OceKblcKZS/iYNOY+Etiqmqw3U0gVTz84iLcnb+kooVoBPppecfZeeRkfG0PSIt8aZtPumY+NhCwSPPHaFdR/48okuGOLwak3N2N8hG69+2QQFH4bWQUrlRPt3lHBru0VfH+uhc9Or7YV98OHWLPueVXEM49UcfjRKl7YVU0oGyms9F58iMIMZA+hz0+vOnXf/thyz7Fq4SHVi09HAmTMlHH9mEKfxk03G8RxUqz98LmGgGf5y5J1DtNvbUGzpenkioGQxxgw/7u9Lp+OBGxaKNyz3DbbhkOYDHMqWVi2+PCrf9fY9+pDyNhko89tpxzCTj90WjNivV5Q1sds2EJzYyNbH4y14Z/52VURZlGmGTEAA0ZpnaXtFrEttuuKwP4uG4sPNj4SYM/EIOqLFl+cWcW9oyEe21HB3yuKm6rS/j5PIswG7aUZcUIqPfBwFZOP34Bf/4hdoIM7q3hxd3ISEovp93mE+RSVbSxezWw9wg/zEeZ+jtzzl2dXcddw0ueYgdl6ciquS6CXxsL/aUt1XuHdd4a4vxa6vT8927xqXPCuGQIbN5a9D1SwbThwBPKNxdfAPaMh9k5U8N25FnbeN4CXnrwRl5etI1AJxfUDX6QbEtASjYWnHmuAdcMa2DMR4Z2T/2CmHrXT3oy03C4ISjQWP+FMvYWZ+gBmLrbw9VzTDcLvjouLEU6daRbuAuvfinppLCTKSTk5h1caBkAruro7Fhq2/XsGlgQuiaCWvjpLL40le+r5Z9pmM3P2pzW7QNNMXGIzetcIXs2/lvcDRWvulRtBECveMyI4Giv+5GUhXQ4HprrT6BY+M7k+4i4macyj5vyxoQURTLndJS4DJKFMb6dRBiSRDk2DJztZMMXYhhdE3tFsjEMAlpgakb7fC5kB4dyMwViM2b6c/p/X8/8AB5V+9TQyhBkAAAAASUVORK5CYII=">
+  <title>Chính sách quyền riêng tư · Sổ tài khoản QR chuyển khoản</title>
+  <style>
+    :root { color-scheme: light; --text: #0f172a; --muted: #475569; --line: #e2e8f0; --accent: #2563eb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f8fafc; color: var(--text); font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 40px 20px 64px; }
+    h1 { font-size: 28px; line-height: 1.25; margin: 0 0 4px; }
+    h2 { font-size: 20px; margin: 36px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+    h3 { font-size: 16px; margin: 20px 0 4px; }
+    p, li { color: var(--muted); }
+    strong { color: var(--text); }
+    .meta { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+    .lang { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .06em; color: var(--accent); text-transform: uppercase; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 8px 0; }
+    th, td { text-align: left; vertical-align: top; padding: 8px 10px; border: 1px solid var(--line); }
+    th { background: #f1f5f9; color: var(--text); }
+    td { color: var(--muted); background: #fff; }
+    a { color: var(--accent); }
+    /* Phones: each table row becomes a stacked card with its column name as a label. */
+    @media (max-width: 600px) {
+      table, tbody, tr, td { display: block; width: 100%; }
+      tr:first-child { display: none; }
+      tr { margin: 0 0 12px; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: #fff; }
+      td { border: 0; border-top: 1px solid var(--line); }
+      tr td:first-child { border-top: 0; font-weight: 600; color: var(--text); background: #f1f5f9; }
+      td::before { content: attr(data-label); display: block; font-size: 12px; font-weight: 700; color: var(--text); text-transform: uppercase; letter-spacing: .04em; }
+      tr td:first-child::before { display: none; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Chính sách quyền riêng tư</h1>
+  <p class="meta">Sổ tài khoản QR chuyển khoản (Chrome extension) · Cập nhật: 24/11/2026 · Áp dụng từ phiên bản 1.2.5</p>
+
+  <span class="lang">Tiếng Việt</span>
+
+  <h3>Tóm tắt</h3>
+  <p>Tiện ích lưu sổ tài khoản ngân hàng của bạn <strong>ngay trên trình duyệt</strong>. Tác giả <strong>không có máy chủ</strong>, không thu thập, không bán và không chia sẻ dữ liệu của bạn, không dùng quảng cáo hay công cụ thống kê. Dữ liệu chỉ rời khỏi máy khi bạn dùng các tính năng kết nối liệt kê dưới đây.</p>
+
+  <h3>Dữ liệu tiện ích xử lý</h3>
+  <ul>
+    <li><strong>Sổ tài khoản:</strong> ngân hàng, số tài khoản, tên chủ tài khoản, tên gợi nhớ, nhóm, ghi chú, số tiền và nội dung đã dùng gần đây.</li>
+    <li><strong>Cài đặt:</strong> tên của bạn (để điền nội dung chuyển khoản), danh sách nhóm, mẫu nội dung, kiểu hộp thoại mã QR.</li>
+    <li><strong>Cấu hình đồng bộ do bạn nhập:</strong> địa chỉ Apps Script và mã bí mật, Google Sheet đích, OAuth Client ID của Google Drive, Client ID và API key của VietQR.io.</li>
+  </ul>
+  <p>Tất cả được lưu trong <code>chrome.storage.local</code> trên máy của bạn. Gỡ tiện ích sẽ xoá các dữ liệu này.</p>
+
+  <h3>Khi nào dữ liệu được gửi đi</h3>
+  <table>
+    <tr><th>Tính năng</th><th>Gửi tới</th><th>Dữ liệu</th><th>Khi nào</th></tr>
+    <tr><td data-label="Tính năng">Ảnh thẻ VietQR chính thức</td><td data-label="Gửi tới">img.vietqr.io</td><td data-label="Dữ liệu">Mã ngân hàng (BIN), số tài khoản, tên chủ tài khoản, số tiền, nội dung</td><td data-label="Khi nào">Khi mở mã QR, nếu bật "Dùng ảnh thẻ chính thức từ img.vietqr.io" trong Cài đặt (bật sẵn; tắt thì thẻ được vẽ hoàn toàn trên máy)</td></tr>
+    <tr><td data-label="Tính năng">Logo ngân hàng</td><td data-label="Gửi tới">api.vietqr.io</td><td data-label="Dữ liệu">Chỉ mã ngân hàng, không có dữ liệu cá nhân</td><td data-label="Khi nào">Khi hiển thị danh sách, nếu cho phép ảnh từ VietQR.io</td></tr>
+    <tr><td data-label="Tính năng">Tra tên chủ tài khoản</td><td data-label="Gửi tới">api.vietqr.io</td><td data-label="Dữ liệu">Mã ngân hàng và số tài khoản, kèm API key của bạn</td><td data-label="Khi nào">Chỉ khi bạn nhập API key VietQR.io và bấm "Tra tên" hoặc quét mã QR không có tên</td></tr>
+    <tr><td data-label="Tính năng">Đồng bộ Google Sheet</td><td data-label="Gửi tới">Apps Script do chính bạn triển khai (script.google.com)</td><td data-label="Dữ liệu">Toàn bộ sổ tài khoản và cài đặt</td><td data-label="Khi nào">Chỉ khi bạn bật; dữ liệu nằm trong Google Sheet của bạn</td></tr>
+    <tr><td data-label="Tính năng">Sao lưu Google Drive</td><td data-label="Gửi tới">Google Drive của bạn (www.googleapis.com)</td><td data-label="Dữ liệu">Toàn bộ sổ tài khoản và cài đặt, trong file <code>so-tai-khoan-vietqr.json</code></td><td data-label="Khi nào">Chỉ khi bạn bật và đăng nhập Google; quyền <code>drive.file</code> chỉ cho phép đụng tới file do tiện ích tạo</td></tr>
+  </table>
+  <p>Các quyền truy cập tên miền trên đều là <strong>quyền tuỳ chọn</strong>: Chrome chỉ hỏi bạn khi bạn bật tính năng tương ứng.</p>
+
+  <h3>Xử lý ngay trên máy</h3>
+  <ul>
+    <li><strong>Quét mã QR trên trang web</strong> (quyền <code>activeTab</code>): tiện ích chụp tab đang xem khi bạn bấm lệnh quét, đọc mã QR và chữ trên ảnh ngay trên máy. Ảnh không được lưu và không được gửi đi.</li>
+    <li><strong>Ảnh và camera:</strong> ảnh bạn chọn, dán hoặc kéo thả, và hình từ camera chỉ được xử lý trên máy để đọc mã QR và tên chủ tài khoản (OCR chạy offline).</li>
+    <li><strong>Mã VietQR</strong> được tạo offline theo chuẩn NAPAS/EMVCo.</li>
+  </ul>
+
+  <h3>Nút "Mời tác giả một ly cà phê"</h3>
+  <p>Nút này chỉ mở mã VietQR ví MoMo của tác giả để bạn tự nguyện ủng hộ. Tiện ích không biết bạn có chuyển tiền hay không và không ghi lại gì.</p>
+
+  <h3>Quyền của bạn</h3>
+  <p>Bạn có thể xem, sửa, xuất (file JSON) và xoá dữ liệu bất kỳ lúc nào trong tiện ích; tắt đồng bộ trong Cài đặt; thu hồi quyền Google tại <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Dữ liệu đã đồng bộ nằm trong Google Sheet hoặc Google Drive của bạn và do bạn quản lý.</p>
+
+  <h3>Liên hệ</h3>
+  <p>Mọi câu hỏi về quyền riêng tư, vui lòng gửi tại <a href="https://github.com/qaqeqe0/so-tai-khoan-qr/issues">github.com/qaqeqe0/so-tai-khoan-qr/issues</a>. Trang giới thiệu: <a href="https://qaqeqe0.github.io/so-tai-khoan-qr/">qaqeqe0.github.io/so-tai-khoan-qr</a>.</p>
+
+  <h2><span class="lang">English</span><br>Privacy Policy</h2>
+
+  <h3>Summary</h3>
+  <p>The extension keeps your bank account book <strong>in your browser</strong>. The author runs <strong>no server</strong> and does not collect, sell or share your data, and uses no ads or analytics. Data leaves your device only when you use the connected features listed below.</p>
+
+  <h3>Data the extension handles</h3>
+  <ul>
+    <li><strong>Account book:</strong> bank, account number, account holder name, nickname, group, note, recently used amounts and transfer messages.</li>
+    <li><strong>Settings:</strong> your name (used to pre-fill the transfer message), groups, message templates, QR dialog style.</li>
+    <li><strong>Sync configuration you enter:</strong> Apps Script URL and secret, target Google Sheet, Google Drive OAuth client ID, VietQR.io client ID and API key.</li>
+  </ul>
+  <p>All of it is stored in <code>chrome.storage.local</code> on your device and is removed when you uninstall the extension.</p>
+
+  <h3>When data is sent</h3>
+  <table>
+    <tr><th>Feature</th><th>Sent to</th><th>Data</th><th>When</th></tr>
+    <tr><td data-label="Feature">Official VietQR card image</td><td data-label="Sent to">img.vietqr.io</td><td data-label="Data">Bank BIN, account number, holder name, amount, message</td><td data-label="When">When a QR is opened, if "Use the official card image from img.vietqr.io" is on in Settings (on by default; when off, the card is drawn entirely on your device)</td></tr>
+    <tr><td data-label="Feature">Bank logos</td><td data-label="Sent to">api.vietqr.io</td><td data-label="Data">Bank code only, no personal data</td><td data-label="When">When the list is shown, if VietQR.io images are allowed</td></tr>
+    <tr><td data-label="Feature">Account holder lookup</td><td data-label="Sent to">api.vietqr.io</td><td data-label="Data">Bank BIN and account number, with your own API key</td><td data-label="When">Only if you enter a VietQR.io API key and press "Tra tên" (look up) or scan a QR without a name</td></tr>
+    <tr><td data-label="Feature">Google Sheet sync</td><td data-label="Sent to">Your own Apps Script deployment (script.google.com)</td><td data-label="Data">The whole account book and settings</td><td data-label="When">Only when you turn it on; the data lives in your Google Sheet</td></tr>
+    <tr><td data-label="Feature">Google Drive backup</td><td data-label="Sent to">Your Google Drive (www.googleapis.com)</td><td data-label="Data">The whole account book and settings, in <code>so-tai-khoan-vietqr.json</code></td><td data-label="When">Only when you turn it on and sign in; the <code>drive.file</code> scope only reaches files the extension created</td></tr>
+  </table>
+  <p>All of these hosts are <strong>optional permissions</strong>: Chrome asks you only when you turn the matching feature on.</p>
+
+  <h3>Processed on your device</h3>
+  <ul>
+    <li><strong>Scanning a QR on a web page</strong> (<code>activeTab</code>): when you choose the scan command, the extension captures the visible tab and reads the QR code and text locally. The image is neither stored nor sent.</li>
+    <li><strong>Images and camera:</strong> images you pick, paste or drop, and camera frames, are processed only on your device (offline OCR).</li>
+    <li><strong>VietQR codes</strong> are generated offline following the NAPAS/EMVCo standard.</li>
+  </ul>
+
+  <h3>"Buy the author a coffee" button</h3>
+  <p>It only opens the author's MoMo VietQR for voluntary support. The extension does not know whether you pay and records nothing.</p>
+
+  <h3>Your choices</h3>
+  <p>You can view, edit, export (JSON) and delete your data at any time in the extension, turn sync off in Settings, and revoke Google access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Synced data stays in your own Google Sheet or Drive under your control.</p>
+
+  <h3>Contact</h3>
+  <p>For privacy questions, please open an issue at <a href="https://github.com/qaqeqe0/so-tai-khoan-qr/issues">github.com/qaqeqe0/so-tai-khoan-qr/issues</a>. Homepage: <a href="https://qaqeqe0.github.io/so-tai-khoan-qr/">qaqeqe0.github.io/so-tai-khoan-qr</a>.</p>
+</main>
+</body>
+</html>
